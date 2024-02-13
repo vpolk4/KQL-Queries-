@@ -1,4 +1,16 @@
 # KQL-Queries- How to Enhance Security W
+<br />
+<br />
+
+
+The KQL query below selects data from the SecurityEvent table in Azure Sentinel, where the EventID is equal to 4624, and the AccountType is equal to "User" and the LogonType is equal to 2. The query then projects this results in an easy to read table that displays *TimeGenerated, Account, Computer, LogonType,* and *IpAddress* columns.
+The KQL query below selects data from the SecurityEvent table in Azure Sentinel, where the EventID is equal to 4624, and the AccountType is equal to "User" and the LogonType is equal to 2. The query then projects this results in an easy to read table that displays ``TimeGenerated``, ``Account``, ``Computer``, `
+
+
+
+
+
+
 
 
 
